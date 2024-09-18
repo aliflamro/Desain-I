@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+html{
+    background: #CDFFF2;
+    color: #000 !important;
+    font-family: 'Arial';
+}
+body{
+    max-width: 1367px;
+    margin: 0 auto;
+}
+.yml form{
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #fff !important;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #313737 !important;
+}
+.yml-sign form{
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #fff !important;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #313737 !important;
+}
+.logo {
+    text-align: start;
+}
+.group-f{
+    width: 100%;
+    text-align: start;
+    margin: 10px 0;
+}
+.group-f label{
+    font-size: normal;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.form-control{
+    padding: 10px;
+    border: 2px solid #313737 !important;
+    width: 100%;
+    outline: 0;
+}
+.mt-tb{
+    margin: 10px 0;
+}
+.btn-primary{
+    background: #CDFFF2;
+    padding: 12.5px;
+    width:100%;
+    font-weight: bold;
+    border: 2px solid #313737;
+}
+
+@media (max-width:600px){
+    .yml form{
+        max-width: 280px;
+        top: 30%;
+        left: 12.5%;
+    }
+    .yml-sign form{
+        max-width: 280px;
+        top: 22.5%;
+        left: 11.5%;
+    }
+}
+@media (min-width:601px) and (max-width:800px){
+    .yml form{
+        top: 40%;
+        left: 25%;
+    }
+    .yml-sign form{
+        top: 40%;
+        left: 25%;
+    }
+}
